@@ -1,3 +1,5 @@
+![FreshThread — Start Fresh Without Starting Over.](assets/freshthread-banner.png)
+
 # FreshThread BETA version
 
 **FreshThread is a Windows companion for Codex that helps you follow long tasks
