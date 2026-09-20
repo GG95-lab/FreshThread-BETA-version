@@ -28,7 +28,7 @@ detail of a conversation will transfer. Some measurements depend on information
 available from Codex; missing values are shown as unavailable, not invented.
 Always review the handoff summary, especially for sensitive or important work.
 
-<video src="https://github.com/GG95-lab/FreshThread-BETA-version/raw/refs/heads/main/assets/freshthread-demo.mp4" controls></video>
+[![FreshThread in action — looping demonstration.](assets/freshthread-demo.gif)](assets/freshthread-demo.mp4)
 
 ## How you use it
 
