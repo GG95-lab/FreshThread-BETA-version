@@ -1,5 +1,40 @@
 # FreshThread BETA version
 
+**FreshThread is a Windows companion for Codex that helps you follow long tasks
+and carry their working context into a fresh task.**
+
+Long conversations accumulate decisions, constraints and unfinished work. When
+you need to continue in a new task, reconstructing that context manually can be
+time-consuming. FreshThread prepares a handoff summary for you to review before
+you approve the transition.
+
+## What FreshThread does
+
+- **Shows session information beside Codex.** A compact indicator and expandable
+  panel show available context usage, completed turns, compactions and handoff
+  readiness for the selected task.
+- **Prepares task continuity.** It collects the available working-state summary,
+  including the goal, constraints, completed work and next steps, for a handoff.
+- **Keeps the decision with you.** Preparing a handoff does not authorize it.
+  You review and approve the handoff before execution.
+- **Works with your Windows setup.** The panel is designed to preserve its
+  proportions across display scaling and resolution changes. Different setups
+  are part of this public beta's testing scope.
+
+FreshThread does not increase the model's context limit or guarantee that every
+detail of a conversation will transfer. Some measurements depend on information
+available from Codex; missing values are shown as unavailable, not invented.
+Always review the handoff summary, especially for sensitive or important work.
+
+## How you use it
+
+Install FreshThread in the Windows account where you use Codex, review its hooks
+in Codex, and continue working normally. Open the FreshThread panel to inspect
+the current task's available measurements. When you want a fresh task, review
+the prepared handoff and approve it if it captures what you need to continue.
+
+## About this beta
+
 This repository distributes FreshThread installers and collects feedback. The
 application source is maintained separately. No public beta installer has been
 published yet.
