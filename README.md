@@ -28,6 +28,8 @@ detail of a conversation will transfer. Some measurements depend on information
 available from Codex; missing values are shown as unavailable, not invented.
 Always review the handoff summary, especially for sensitive or important work.
 
+![FreshThread panel showing session information and handoff readiness.](assets/freshthread-panel.png)
+
 ## How you use it
 
 Install FreshThread in the Windows account where you use Codex, review its hooks
