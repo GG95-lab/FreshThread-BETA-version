@@ -1,0 +1,72 @@
+name: Bug report
+description: Report a reproducible FreshThread beta problem.
+title: "[Beta] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This report is public. Do not attach conversations, private databases,
+        credentials, account identifiers or raw diagnostic folders. Security
+        vulnerabilities belong in private reporting, not this form.
+  - type: input
+    id: freshthread-version
+    attributes:
+      label: FreshThread version and build
+      description: Copy the version and build identifier from the release you installed.
+    validations:
+      required: true
+  - type: input
+    id: codex-version
+    attributes:
+      label: Codex version
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version, display scaling and resolution
+      placeholder: "Windows 11, 150%, 1920×1080; two monitors"
+    validations:
+      required: true
+  - type: dropdown
+    id: installation
+    attributes:
+      label: Installation type
+      options:
+        - First FreshThread installation in this Windows account
+        - Upgrade from an earlier FreshThread version
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a synthetic example; exclude your conversation content and private paths.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the visible status, frequency and any workaround.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional redacted evidence
+      description: Inspect screenshots and diagnostic summaries before sharing. Attach no raw logs or databases.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked this report and attachments for private information.
+          required: true
