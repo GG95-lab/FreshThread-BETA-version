@@ -29,21 +29,6 @@ The right-hand value in **Last compaction** shows how much context was still
 occupied when work resumed. A higher starting value leaves less room for new
 work. **Context load** shows the latest occupancy as the session continues.
 
-The current build derives **Session pressure** from the latest post-compaction
-occupancy: **BASELINE** below 30%, **RISING** 30% to below 50%, **ELEVATED** 50%
-to below 65%, and **LOOPING** 65% or more. It is not an answer-quality score.
-**NONE YET** means no
-compaction has been recorded; **MEASURING** means the required data is not ready.
-
-**Handoff states:** **Preparing** means work is underway; **Ready when you choose**
-means you can start the handoff. **Waiting for first turn** needs a completed
-response; **Waiting to retry** means preparation will be retried.
-**Preparation paused** or **Unavailable** means handoff cannot proceed yet—check
-the panel's accompanying message.
-
-**—** means no measurement is available; **…** or **Restoring** means task data
-is loading. Neither means zero.
-
 ## Beta status
 
 **The public beta is being prepared. No installer has been published yet.**
