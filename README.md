@@ -15,18 +15,22 @@ steps. You review and approve it before moving to a new task.
 
 | Label | Meaning |
 | --- | --- |
-| **MiB** | Size of the task's local session data read so far. This is file size, not RAM use or context capacity. |
-| **Session pressure** | How full the context remained after the latest compaction. See the levels below. |
-| **Last compaction** | Context usage before → after the latest compaction, for example **88.5% → 17.1%**. |
-| **Compactions** | Number of times Codex has condensed the task's context to make room for more work. |
-| **Completed turns** | Response cycles that Codex reported as completed. |
-| **Interrupted** | Response cycles that Codex reported as interrupted, such as a stopped response. |
-| **Token use** | Total recorded token usage across the task's finished turns, including interrupted turns. It is not the current context size. |
-| **Handoff** | Whether the context for a new task is being prepared, ready or waiting. |
-| **Context load** | Latest measured percentage of the model's effective context capacity in use. |
+| **MiB** | Physical size of the session data accumulated on disk, up to FreshThread's latest reading. Separate from the model's context usage. |
+| **Session pressure** | The session's remaining fullness after compaction, expressed as a level such as BASELINE or ELEVATED. A higher level means less room was freed for new work. |
+| **Last compaction** | The latest compaction's before → after percentages. The **right-hand value** is the starting context load after compaction: **88.5% → 17.1%** means the session resumed with 17.1% already occupied. |
+| **Compactions** | Total recorded context compressions in this session. Each condenses earlier context to free space; the count does not tell you how much space was freed. |
+| **Completed turns** | Total response cycles recorded as completed in this session. One cycle can include several tool calls. |
+| **Interrupted** | Total response cycles recorded as interrupted in this session, for example when a response is stopped. |
+| **Token use** | Accumulated recorded token usage over completed and interrupted turns. This total can grow across many context windows. |
+| **Handoff** | Readiness to continue in a new task with the prepared working context. A ready handoff starts only when you choose it. |
+| **Context load** | How much of the current context window is occupied at the latest measurement. It changes as work continues and drops when compaction frees space. |
 
-**Session pressure levels:** **BASELINE** below 30%, **RISING** 30–49.9%,
-**ELEVATED** 50–64.9%, **LOOPING** 65% or more, measured *after compaction*.
+The higher the post-compaction starting value, the more context remains occupied
+and the less space is available for new work. **Session pressure** classifies that
+starting value; **Context load** shows the latest occupancy as the session continues.
+
+**Session pressure levels:** **BASELINE** below 30%, **RISING** 30% to below 50%,
+**ELEVATED** 50% to below 65%, **LOOPING** 65% or more, measured *after compaction*.
 These are load bands, not ratings of answer quality. **NONE YET** means no
 compaction has been recorded; **MEASURING** means the required data is not ready.
 
