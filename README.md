@@ -75,7 +75,7 @@ download hash alone does not prove who published a file.
 
 - Startup and hook setup.
 - Tasks opened from Projects and Recents, task switching and empty tasks.
-- Panel placement and proportions across resolutions, Windows scaling and pets.
+- Panel placement and proportions across resolutions and Windows scaling.
 - Measurements after a completed turn, and handoffs using a disposable task
   without private content.
 - Whether updates preserve settings and hooks. Avoid deliberately interrupting
