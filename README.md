@@ -13,21 +13,32 @@ steps. You review and approve it before moving to a new task.
 
 ## Reading the panel
 
-| Label | Meaning |
-| --- | --- |
-| **MiB** | Physical size of the session data accumulated on disk, up to FreshThread's latest reading. Separate from the model's context usage. |
-| **Session pressure** | The session's overall pressure status, shown as BASELINE, RISING, ELEVATED or LOOPING. It gives a session-level status rather than a live usage percentage. |
-| **Last compaction** | The latest compaction's before → after percentages. The **right-hand value** is the starting context load after compaction: **88.5% → 17.1%** means the session resumed with 17.1% already occupied. |
-| **Compactions** | Total recorded context compressions in this session. Each condenses earlier context to free space; the count does not tell you how much space was freed. |
-| **Completed turns** | Total response cycles recorded as completed in this session. One cycle can include several tool calls. |
-| **Interrupted** | Total response cycles recorded as interrupted in this session, for example when a response is stopped. |
-| **Token use** | Accumulated recorded token usage over completed and interrupted turns. This total can grow across many context windows. |
-| **Handoff** | Readiness to continue in a new task with the prepared working context. A ready handoff starts only when you choose it. |
-| **Context load** | How much of the current context window is occupied at the latest measurement. It changes as work continues and drops when compaction frees space. |
+### Size & context
 
-The right-hand value in **Last compaction** shows how much context was still
-occupied when work resumed. A higher starting value leaves less room for new
-work. **Context load** shows the latest occupancy as the session continues.
+| Indicator | What it tells you |
+| :--- | :--- |
+| **MiB** | **Accumulated size on disk** of this session's data, as last read. |
+| **Session pressure** | **Overall session pressure**, expressed as a status. |
+| **Last compaction** | Context usage **before → after** the latest compression. The right-hand value is the starting load for continued work. |
+| **Context load** | **Current context occupancy**, as last measured. |
+
+> **88.5% → 17.1%** means work resumed with **17.1%** of the context already
+> occupied. A higher starting value leaves less room for new work.
+
+### Session activity
+
+| Counter | What it counts |
+| :--- | :--- |
+| **Compactions** | Recorded context compressions in this session. |
+| **Completed turns** | Completed response cycles. Each can include several tool calls. |
+| **Interrupted** | Response cycles recorded as interrupted, such as a stopped response. |
+| **Token use** | Recorded token usage across completed and interrupted turns—not just the current context. |
+
+### Continuing in a new task
+
+| Status | What it tells you |
+| :--- | :--- |
+| **Handoff** | Whether the working context is ready to carry into a new task. **You choose when to start.** |
 
 ## Beta status
 
