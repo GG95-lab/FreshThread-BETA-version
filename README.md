@@ -11,6 +11,34 @@ steps. You review and approve it before moving to a new task.
 
 [![FreshThread in action — looping demonstration.](assets/freshthread-demo.gif)](assets/freshthread-demo.mp4)
 
+## Reading the panel
+
+| Label | Meaning |
+| --- | --- |
+| **MiB** | Size of the task's local session data read so far. This is file size, not RAM use or context capacity. |
+| **Session pressure** | How full the context remained after the latest compaction. See the levels below. |
+| **Last compaction** | Context usage before → after the latest compaction, for example **88.5% → 17.1%**. |
+| **Compactions** | Number of times Codex has condensed the task's context to make room for more work. |
+| **Completed turns** | Response cycles that Codex reported as completed. |
+| **Interrupted** | Response cycles that Codex reported as interrupted, such as a stopped response. |
+| **Token use** | Total recorded token usage across the task's finished turns, including interrupted turns. It is not the current context size. |
+| **Handoff** | Whether the context for a new task is being prepared, ready or waiting. |
+| **Context load** | Latest measured percentage of the model's effective context capacity in use. |
+
+**Session pressure levels:** **BASELINE** below 30%, **RISING** 30–49.9%,
+**ELEVATED** 50–64.9%, **LOOPING** 65% or more, measured *after compaction*.
+These are load bands, not ratings of answer quality. **NONE YET** means no
+compaction has been recorded; **MEASURING** means the required data is not ready.
+
+**Handoff states:** **Preparing** means work is underway; **Ready when you choose**
+means you can start the handoff. **Waiting for first turn** needs a completed
+response; **Waiting to retry** means preparation will be retried.
+**Preparation paused** or **Unavailable** means handoff cannot proceed yet—check
+the panel's accompanying message.
+
+**—** means no measurement is available; **…** or **Restoring** means task data
+is loading. Neither means zero.
+
 ## Beta status
 
 **The public beta is being prepared. No installer has been published yet.**
