@@ -1,7 +1,5 @@
 ![FreshThread — Start Fresh Without Starting Over.](assets/freshthread-banner.png)
 
-# FreshThread BETA version
-
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
