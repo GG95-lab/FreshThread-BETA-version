@@ -24,6 +24,8 @@ steps. You review and approve it before moving to a new task.
 
 > **88.5% → 17.1%** means work resumed with **17.1%** of the context already
 > occupied. A higher starting value leaves less room for new work.
+> As the session grows, the model may also carry forward more details that are
+> no longer useful to the current task.
 
 ### Session activity
 
