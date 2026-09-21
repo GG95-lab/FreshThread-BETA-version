@@ -16,7 +16,7 @@ steps. You review and approve it before moving to a new task.
 | Label | Meaning |
 | --- | --- |
 | **MiB** | Physical size of the session data accumulated on disk, up to FreshThread's latest reading. Separate from the model's context usage. |
-| **Session pressure** | The session's remaining fullness after compaction, expressed as a level such as BASELINE or ELEVATED. A higher level means less room was freed for new work. |
+| **Session pressure** | The session's overall pressure status, shown as BASELINE, RISING, ELEVATED or LOOPING. It gives a session-level status rather than a live usage percentage. |
 | **Last compaction** | The latest compaction's before → after percentages. The **right-hand value** is the starting context load after compaction: **88.5% → 17.1%** means the session resumed with 17.1% already occupied. |
 | **Compactions** | Total recorded context compressions in this session. Each condenses earlier context to free space; the count does not tell you how much space was freed. |
 | **Completed turns** | Total response cycles recorded as completed in this session. One cycle can include several tool calls. |
@@ -25,13 +25,14 @@ steps. You review and approve it before moving to a new task.
 | **Handoff** | Readiness to continue in a new task with the prepared working context. A ready handoff starts only when you choose it. |
 | **Context load** | How much of the current context window is occupied at the latest measurement. It changes as work continues and drops when compaction frees space. |
 
-The higher the post-compaction starting value, the more context remains occupied
-and the less space is available for new work. **Session pressure** classifies that
-starting value; **Context load** shows the latest occupancy as the session continues.
+The right-hand value in **Last compaction** shows how much context was still
+occupied when work resumed. A higher starting value leaves less room for new
+work. **Context load** shows the latest occupancy as the session continues.
 
-**Session pressure levels:** **BASELINE** below 30%, **RISING** 30% to below 50%,
-**ELEVATED** 50% to below 65%, **LOOPING** 65% or more, measured *after compaction*.
-These are load bands, not ratings of answer quality. **NONE YET** means no
+The current build derives **Session pressure** from the latest post-compaction
+occupancy: **BASELINE** below 30%, **RISING** 30% to below 50%, **ELEVATED** 50%
+to below 65%, and **LOOPING** 65% or more. It is not an answer-quality score.
+**NONE YET** means no
 compaction has been recorded; **MEASURING** means the required data is not ready.
 
 **Handoff states:** **Preparing** means work is underway; **Ready when you choose**
