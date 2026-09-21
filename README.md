@@ -42,11 +42,7 @@ steps. You review and approve it before moving to a new task.
 | :--- | :--- |
 | **Handoff** | Whether the working context is ready to carry into a new task. **You choose when to start.** |
 
-<br>
-
 ---
-
-<br>
 
 ## Beta status
 
