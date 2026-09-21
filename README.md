@@ -9,9 +9,6 @@ Its panel shows available context usage, completed turns, compactions and handof
 readiness. A handoff summarizes your goal, constraints, completed work and next
 steps. You review and approve it before moving to a new task.
 
-FreshThread does not expand the model's context limit or preserve every detail.
-Measurements that Codex does not provide appear as unavailable.
-
 [![FreshThread in action — looping demonstration.](assets/freshthread-demo.gif)](assets/freshthread-demo.mp4)
 
 ## Beta status
@@ -20,7 +17,7 @@ Measurements that Codex does not provide appear as unavailable.
 This repository will host downloads, release notes and bug reports. The source
 code remains private.
 
-The planned trial lasts **10 days from first use**, with a FreshThread account
+The planned trial lasts **14 days from first use**, with a FreshThread account
 and online verification. Each device gets one trial, shared across accounts.
 Reinstalling, switching accounts or moving an existing account to another device
 will not restart it. After expiry, FreshThread features will stop, while user
@@ -37,9 +34,6 @@ Once the beta is released:
 2. Install it in the Windows account where you use Codex.
 3. Review and enable FreshThread's hooks in Codex.
 4. Open the FreshThread panel to view task activity or start a handoff.
-
-Back up your work and existing FreshThread data before testing. Do not copy
-FreshThread databases between Windows users.
 
 The initial installer will lack a Windows publisher signature (Authenticode),
 so Windows may show an unknown-publisher warning. Do not disable Windows
@@ -75,11 +69,14 @@ Report security vulnerabilities through
 [private reporting](https://github.com/GG95-lab/FreshThread-BETA-version/security/advisories/new),
 not public issues.
 
-## Updates and removal
+## Your data
+
+FreshThread stores its context checkpoints locally and encrypts them on Windows.
+Handoffs run through Codex; model-based preparation may use Codex's model provider.
+The planned sign-in and trial service will verify your account and device, without
+receiving your conversations or project files.
+
+## Updates
 
 A separate beta update channel is planned and must pass testing before launch.
 Stable installations will not receive beta builds automatically.
-
-Uninstalling removes FreshThread's integration and local application data, so
-keep any needed backup first. Installing an older executable alone is not a
-supported rollback because database formats can change.
