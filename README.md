@@ -43,6 +43,8 @@ reports new activity and measurements.
 | :--- | :--- |
 | **Handoff** | Whether the working context is ready to carry into a new task. **You choose when to start.** |
 
+![FreshThread panel — session pressure and handoff readiness.](assets/freshthread-panel.png)
+
 ---
 
 ## Beta status
