@@ -11,6 +11,9 @@ steps. You review and approve it before moving to a new task.
 
 ## Reading the panel
 
+The panel updates live as you work, following the selected session as Codex
+reports new activity and measurements.
+
 ### Size & context
 
 | Indicator | What it tells you |
