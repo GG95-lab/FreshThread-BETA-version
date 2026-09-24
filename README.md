@@ -49,29 +49,28 @@ reports new activity and measurements.
 
 ## Beta status
 
-**The public beta is being prepared. No installer has been published yet.**
-This repository will host downloads, release notes and bug reports. The source
-code remains private.
+**The seven-day public beta is available.** Download the Windows x64 installer
+from this repository's Releases. The source code remains private.
 
-The beta will run for **7 days from its release date**, with the same deadline
+The beta runs for **7 days from its release date**, with the same deadline
 for everyone. Installing a patch will not extend it. No FreshThread account is
 required. The deadline works offline using the local clock; after expiry, user
 data, bug reporting and updates remain available.
 
-The target release is **September 24, 2026 at 11:00 Budapest time**. If final
-release checks delay publication, the start and end will both move before the
-first beta is released. The beta has no participant limit.
+The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
+11:00 Budapest time**. The beta has no participant limit.
 
 ## Getting started
 
-Once the beta is released:
-
 1. Download the Windows x64 installer from this repository's Releases.
 2. Install it in the Windows account where you use Codex.
-3. Review and enable FreshThread's hooks in Codex.
-4. Open the FreshThread panel to view task activity or start a handoff.
+3. 💡 If Codex was open during installation, fully exit through
+   **File → Quit ChatGPT**, then restart Codex. Closing only the window may leave
+   Codex running.
+4. Enable the FreshThread hooks in **Settings → Hooks**.
+5. Open the FreshThread panel to view task activity or start a handoff.
 
-The initial installer will lack a Windows publisher signature (Authenticode),
+The installer has no Windows publisher signature (Authenticode),
 so Windows may show an unknown-publisher warning. Do not disable Windows
 protection. Automatic updates require separate signature verification; a
 download hash alone does not prove who published a file.
@@ -121,9 +120,7 @@ include your optional description and is retained for up to 30 days.
 
 ## Updates
 
-The beta update channel is being prepared and must pass a signed installer
-update test before launch. Once verified, beta installations will check for
-updates at startup and periodically; installation waits for a safe pause in
-Codex work. New beta releases will also appear under **Releases**. A patch
-does not restart the seven-day deadline. Stable installations will not receive
-beta builds automatically.
+Beta installations check for signed updates at startup and every 15 minutes;
+installation waits for a safe pause in Codex work. New beta releases also
+appear under **Releases**. A patch does not restart the seven-day deadline.
+Stable installations do not receive beta builds automatically.
