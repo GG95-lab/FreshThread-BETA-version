@@ -58,7 +58,7 @@ for everyone. Installing a patch will not extend it. No FreshThread account is
 required. The deadline works offline using the local clock; after expiry, user
 data, bug reporting and updates remain available.
 
-The target release is **September 24, 2026 at 16:00 Budapest time**. If final
+The target release is **September 24, 2026 at 11:00 Budapest time**. If final
 release checks delay publication, the start and end will both move before the
 first beta is released. The beta has no participant limit.
 
