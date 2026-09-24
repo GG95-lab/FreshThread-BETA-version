@@ -25,7 +25,7 @@ reports new activity and measurements.
 | **Last compaction** | Context usage **before → after** the latest compression. The right-hand value is the starting load for continued work. |
 | **Context load** | **Current context occupancy**, as last measured. |
 
-> **88.5% → 17.1%** means work resumed with **17.1%** of the context already
+> **93.6% → 32.3%** means work resumed with **32.3%** of the context already
 > occupied. A higher starting value leaves less room for new work.
 > As the session grows, the model may also carry forward more details that are
 > no longer useful to the current task.
