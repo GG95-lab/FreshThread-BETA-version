@@ -5,6 +5,9 @@ you continue in a fresh task with your working context.**
 
 **[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe)**
 
+> 💡 **Windows installer:** This beta is not yet signed with a Windows publisher
+> certificate. Windows may show an **“Unknown publisher”** warning when you run it.
+
 Its panel shows available context usage, completed turns, compactions and handoff
 readiness. A handoff summarizes your goal, constraints, completed work and next
 steps. You review and approve it before moving to a new task.
@@ -77,10 +80,8 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 4. Enable the FreshThread hooks in **Settings → Hooks**.
 5. Open the FreshThread panel to view task activity or start a handoff.
 
-The installer has no Windows publisher signature (Authenticode),
-so Windows may show an unknown-publisher warning. Do not disable Windows
-protection. Automatic updates require separate signature verification; a
-download hash alone does not prove who published a file.
+Automatic updates require separate signature verification; a download hash
+alone does not prove who published a file.
 
 The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/SHA256SUMS.txt)
 for checking the installer's hash and a
