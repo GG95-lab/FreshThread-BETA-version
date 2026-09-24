@@ -3,6 +3,8 @@
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
+**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe)**
+
 Its panel shows available context usage, completed turns, compactions and handoff
 readiness. A handoff summarizes your goal, constraints, completed work and next
 steps. You review and approve it before moving to a new task.
