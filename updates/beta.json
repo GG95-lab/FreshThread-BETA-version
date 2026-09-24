@@ -1,0 +1,17 @@
+{
+  "version": "0.2.6-beta.3",
+  "notes": "FreshThread 0.2.6-beta.3",
+  "pub_date": "2026-09-24T08:48:50.9475401Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZmQ3SStwS1RGVitmU3B2eFNXWkkvOG14SForNjNySDdMTTFYUnhibzZpS2RRN0NrWXFHNHJPVE4rb3hxcVNIU3pSaVE0aDRiOTA4cXJrZ0ljVTBTbFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjM5Mzk1CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4zX3g2NC1zZXR1cC5leGUKVzBKVWEybEpuUGo4OUFVTW5QeDFoNkpsa0luTEhNUUMyVVdiUkNZcmR4SXpUeFlEdDJkMGRLbGNXMFd2dWFaUGd2WUpvZkJqdkpMakJqcWl4N292QXc9PQo=",
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe"
+    }
+  },
+  "beta_campaign": {
+    "schema_version": 1,
+    "campaign_id": "freshthread-public-beta-1",
+    "released_at_unix_ms": 1790240400000,
+    "expires_at_unix_ms": 1790845200000
+  }
+}
