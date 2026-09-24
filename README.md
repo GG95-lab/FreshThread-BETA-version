@@ -86,6 +86,9 @@ The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BE
 for checking the installer's hash and a
 [GitHub release attestation](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/verify-release-integrity)
 for verifying that the installer belongs to this release.
+VirusTotal: [view this installer's scan](https://www.virustotal.com/gui/file/652c22b7c826582e99c2743fed3298299d7af6a14d7fa3d655451e2dd6d13fc9/detection)
+(1/69 at publication; Trapmine: `Suspicious.low.ml.score`). The single
+heuristic flag may be related to this new, unsigned installer.
 On a successful uninstall, FreshThread removes its Codex integration and restores
 the Codex settings it changed, leaving unrelated settings in place.
 
