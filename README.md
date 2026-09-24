@@ -5,8 +5,13 @@ you continue in a fresh task with your working context.**
 
 **[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe)**
 
-> 💡 **Windows installer:** This beta is not yet signed with a Windows publisher
+> 💡 **1. Windows installer:** This beta is not yet signed with a Windows publisher
 > certificate. Windows may show an **“Unknown publisher”** warning when you run it.
+
+> 💡 **2. After installing:** Let any active Codex task finish. If Codex is open, use
+> **File → Quit ChatGPT** to exit fully, then reopen it so it loads the
+> FreshThread integration. Closing only the window may leave Codex running.
+> Then enable the FreshThread hooks in **Settings → Hooks**.
 
 Its panel shows available context usage, completed turns, compactions and handoff
 readiness. A handoff summarizes your goal, constraints, completed work and next
@@ -74,11 +79,8 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 
 1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
-3. 💡 If Codex was open during installation, fully exit through
-   **File → Quit ChatGPT**, then restart Codex. Closing only the window may leave
-   Codex running.
-4. Enable the FreshThread hooks in **Settings → Hooks**.
-5. Open the FreshThread panel to view task activity or start a handoff.
+3. Follow tip 2 above to restart Codex and enable the hooks.
+4. Open the FreshThread panel to view task activity or start a handoff.
 
 Automatic updates require separate signature verification; a download hash
 alone does not prove who published a file.
