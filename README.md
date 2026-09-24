@@ -49,10 +49,15 @@ reports new activity and measurements.
 
 ---
 
+**Jump to:** [Beta status](#beta-status) · [Getting started](#getting-started) ·
+[What to test](#what-to-test) · [Report a problem](#report-a-problem) ·
+[Your data](#your-data) · [Updates](#updates)
+
 ## Beta status
 
 **The seven-day public beta is available.** Download the Windows x64 installer
-from this repository's Releases. The source code remains private.
+from this repository's [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
+The source code remains private.
 
 The beta runs for **7 days from its release date**, with the same deadline
 for everyone. Installing a patch will not extend it. No FreshThread account is
@@ -64,7 +69,7 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 
 ## Getting started
 
-1. Download the Windows x64 installer from this repository's Releases.
+1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
 3. 💡 If Codex was open during installation, fully exit through
    **File → Quit ChatGPT**, then restart Codex. Closing only the window may leave
@@ -76,6 +81,13 @@ The installer has no Windows publisher signature (Authenticode),
 so Windows may show an unknown-publisher warning. Do not disable Windows
 protection. Automatic updates require separate signature verification; a
 download hash alone does not prove who published a file.
+
+The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/SHA256SUMS.txt)
+for checking the installer's hash and a
+[GitHub release attestation](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/verify-release-integrity)
+for verifying that the installer belongs to this release.
+On a successful uninstall, FreshThread removes its Codex integration and restores
+the Codex settings it changed, leaving unrelated settings in place.
 
 ## What to test
 
@@ -114,14 +126,20 @@ not public issues.
 
 ## Your data
 
-FreshThread stores its context checkpoints locally and encrypts them on Windows.
-Handoffs run through Codex; model-based preparation may use Codex's model provider.
-Beta deadline checks run locally without sending data. A bug report is sent
-privately only after you review it and select **Send report**; the report can
-include your optional description and is retained for up to 30 days.
+FreshThread reads Codex's local session files to show task activity. It writes
+checkpoints and diagnostics in its own local app folder and installs its
+integration and hooks in Codex. Diagnostic reports do not include conversation
+text by default; review the preview and your optional description before sending.
+
+FreshThread contacts GitHub to check for updates. It sends a diagnostic report
+only when you review the preview and select **Send report**; your optional
+description is included, and the report is retained for up to 30 days. Handoffs
+run through Codex, so model-based preparation may use Codex's model provider.
+The beta deadline is checked locally.
 
 ## Updates
 
 Beta installations check for signed updates at startup and every 15 minutes;
 installation waits for a safe pause in Codex work. New beta releases also
-appear under **Releases**. A patch does not restart the seven-day deadline.
+appear under [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
+A patch does not restart the seven-day deadline.
