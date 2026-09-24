@@ -49,11 +49,8 @@ reports new activity and measurements.
 
 ---
 
-**Jump to:** [Beta status](#beta-status) · [Getting started](#getting-started) ·
-[What to test](#what-to-test) · [Report a problem](#report-a-problem) ·
-[Your data](#your-data) · [Updates](#updates)
-
-## Beta status
+<details name="freshthread-info" open>
+<summary>Beta status</summary>
 
 **The seven-day public beta is available.** Download the Windows x64 installer
 from this repository's [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
@@ -67,7 +64,10 @@ data, bug reporting and updates remain available.
 The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 11:00 Budapest time**. The beta has no participant limit.
 
-## Getting started
+</details>
+
+<details name="freshthread-info">
+<summary>Getting started</summary>
 
 1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
@@ -92,7 +92,10 @@ heuristic flag may be related to this new, unsigned installer.
 On a successful uninstall, FreshThread removes its Codex integration and restores
 the Codex settings it changed, leaving unrelated settings in place.
 
-## What to test
+</details>
+
+<details name="freshthread-info">
+<summary>What to test</summary>
 
 - Startup and hook setup.
 - Tasks opened from Projects and Recents, task switching and empty tasks.
@@ -105,7 +108,10 @@ the Codex settings it changed, leaving unrelated settings in place.
 Check release notes for known limitations. Report unexpected behavior even if
 you find a workaround.
 
-## Report a problem
+</details>
+
+<details name="freshthread-info">
+<summary>Report a problem</summary>
 
 In the beta, open **FreshThread tray menu → Report a bug**. Review the diagnostic
 preview, optionally describe the problem, then choose **Send report** for a
@@ -127,7 +133,10 @@ Report security vulnerabilities through
 [private reporting](https://github.com/GG95-lab/FreshThread-BETA-version/security/advisories/new),
 not public issues.
 
-## Your data
+</details>
+
+<details name="freshthread-info">
+<summary>Your data</summary>
 
 FreshThread reads Codex's local session files to show task activity. It writes
 checkpoints and diagnostics in its own local app folder and installs its
@@ -140,9 +149,14 @@ description is included, and the report is retained for up to 30 days. Handoffs
 run through Codex, so model-based preparation may use Codex's model provider.
 The beta deadline is checked locally.
 
-## Updates
+</details>
+
+<details name="freshthread-info">
+<summary>Updates</summary>
 
 Beta installations check for signed updates at startup and every 15 minutes;
 installation waits for a safe pause in Codex work. New beta releases also
 appear under [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
 A patch does not restart the seven-day deadline.
+
+</details>
