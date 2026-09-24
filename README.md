@@ -53,14 +53,14 @@ reports new activity and measurements.
 This repository will host downloads, release notes and bug reports. The source
 code remains private.
 
-The planned trial lasts **14 days from first use**, with a FreshThread account
-and online verification. Each device gets one trial, shared across accounts.
-Reinstalling, switching accounts or moving an existing account to another device
-will not restart it. After expiry, FreshThread features will stop, while user
-data and access to updates remain available.
+The beta will run for **7 days from its release date**, with the same deadline
+for everyone. Installing a patch will not extend it. No FreshThread account is
+required. The deadline works offline using the local clock; after expiry, user
+data, bug reporting and updates remain available.
 
-Trial enforcement is still being implemented and tested. There is no invitation
-limit or announced release date.
+The target release is **September 24, 2026 at 16:00 Budapest time**. If final
+release checks delay publication, the start and end will both move before the
+first beta is released. The beta has no participant limit.
 
 ## Getting started
 
@@ -91,7 +91,13 @@ you find a workaround.
 
 ## Report a problem
 
-Search existing issues, then use **Issues → New issue → Bug report**. Include:
+In the beta, open **FreshThread tray menu → Report a bug**. Review the diagnostic
+preview, optionally describe the problem, then choose **Send report** for a
+private report. No account is needed, and nothing is uploaded until you send it.
+
+Prefer GitHub? **Copy diagnostics** and **Report on GitHub** remain available.
+GitHub issues are public and require a GitHub account. Search existing issues,
+then use **Issues → New issue → Bug report**. Include:
 
 - FreshThread build, Codex version, Windows version and display scaling.
 - Steps to reproduce the problem.
@@ -109,10 +115,15 @@ not public issues.
 
 FreshThread stores its context checkpoints locally and encrypts them on Windows.
 Handoffs run through Codex; model-based preparation may use Codex's model provider.
-The planned sign-in and trial service will verify your account and device, without
-receiving your conversations or project files.
+Beta deadline checks run locally without sending data. A bug report is sent
+privately only after you review it and select **Send report**; the report can
+include your optional description and is retained for up to 30 days.
 
 ## Updates
 
-A separate beta update channel is planned and must pass testing before launch.
-Stable installations will not receive beta builds automatically.
+The beta update channel is being prepared and must pass a signed installer
+update test before launch. Once verified, beta installations will check for
+updates at startup and periodically; installation waits for a safe pause in
+Codex work. New beta releases will also appear under **Releases**. A patch
+does not restart the seven-day deadline. Stable installations will not receive
+beta builds automatically.

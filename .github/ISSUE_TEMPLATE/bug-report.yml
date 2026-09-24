@@ -5,9 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        This report is public. Do not attach conversations, private databases,
-        credentials, account identifiers or raw diagnostic folders. Security
-        vulnerabilities belong in private reporting, not this form.
+        For a private, no-account report, use FreshThread tray menu → Report a bug,
+        review the preview, then choose Send report. This GitHub issue is public.
+        Do not attach conversations, private databases, credentials, account
+        identifiers or raw diagnostic folders. Security vulnerabilities belong
+        in private reporting, not this form.
   - type: input
     id: freshthread-version
     attributes:
