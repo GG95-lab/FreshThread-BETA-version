@@ -58,7 +58,7 @@ reports new activity and measurements.
 ---
 
 <details name="freshthread-info">
-<summary>Beta status</summary>
+<summary><strong>Beta status</strong> <kbd>OPEN / CLOSE</kbd></summary>
 
 **The seven-day public beta is available.** Download the Windows x64 installer
 from this repository's [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
@@ -75,7 +75,7 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 </details>
 
 <details name="freshthread-info">
-<summary>Getting started</summary>
+<summary><strong>Getting started</strong> <kbd>OPEN / CLOSE</kbd></summary>
 
 1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
@@ -98,7 +98,7 @@ the Codex settings it changed, leaving unrelated settings in place.
 </details>
 
 <details name="freshthread-info">
-<summary>What to test</summary>
+<summary><strong>What to test</strong> <kbd>OPEN / CLOSE</kbd></summary>
 
 - Startup and hook setup.
 - Tasks opened from Projects and Recents, task switching and empty tasks.
@@ -114,7 +114,7 @@ you find a workaround.
 </details>
 
 <details name="freshthread-info">
-<summary>Report a problem</summary>
+<summary><strong>Report a problem</strong> <kbd>OPEN / CLOSE</kbd></summary>
 
 In the beta, open **FreshThread tray menu → Report a bug**. Review the diagnostic
 preview, optionally describe the problem, then choose **Send report** for a
@@ -139,7 +139,7 @@ not public issues.
 </details>
 
 <details name="freshthread-info">
-<summary>Your data</summary>
+<summary><strong>Your data</strong> <kbd>OPEN / CLOSE</kbd></summary>
 
 FreshThread reads Codex's local session files to show task activity. It writes
 checkpoints and diagnostics in its own local app folder and installs its
@@ -155,7 +155,7 @@ The beta deadline is checked locally.
 </details>
 
 <details name="freshthread-info">
-<summary>Updates</summary>
+<summary><strong>Updates</strong> <kbd>OPEN / CLOSE</kbd></summary>
 
 Beta installations check for signed updates at startup and every 15 minutes;
 installation waits for a safe pause in Codex work. New beta releases also
