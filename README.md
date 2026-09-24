@@ -123,4 +123,3 @@ include your optional description and is retained for up to 30 days.
 Beta installations check for signed updates at startup and every 15 minutes;
 installation waits for a safe pause in Codex work. New beta releases also
 appear under **Releases**. A patch does not restart the seven-day deadline.
-Stable installations do not receive beta builds automatically.
