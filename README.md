@@ -57,7 +57,7 @@ reports new activity and measurements.
 
 ---
 
-<details name="freshthread-info" open>
+<details name="freshthread-info">
 <summary>Beta status</summary>
 
 **The seven-day public beta is available.** Download the Windows x64 installer
