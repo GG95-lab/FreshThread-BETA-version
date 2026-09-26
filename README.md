@@ -19,6 +19,17 @@ steps. You review and approve it before moving to a new task.
 
 [![FreshThread in action — looping demonstration.](assets/freshthread-demo.gif)](assets/freshthread-demo.mp4)
 
+## Privacy in short
+
+- **Runs on your computer.** FreshThread reads Codex's session files locally to
+  show the measurements. No account needed.
+- **Goes online for two things only:** checking GitHub for updates, and sending a
+  bug report when you click **Send report**. Handoffs run through Codex itself.
+- **The Codex connection is open source.** The [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge)
+  removes your prompts, commands and their output, and cannot go online. You can
+  check that the copy on your computer was built from that public code
+  ([how](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md)).
+
 ## Reading the panel
 
 The panel updates live as you work, following the selected session as Codex
