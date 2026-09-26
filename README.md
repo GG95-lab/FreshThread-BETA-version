@@ -3,7 +3,7 @@
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
-**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.4/FreshThread_0.2.6-beta.4_x64-setup.exe)**
+**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe)**
 
 > 💡 **1. Windows installer:** This beta is not yet signed with a Windows publisher
 > certificate. Windows may show an **“Unknown publisher”** warning when you run it.
@@ -18,17 +18,6 @@ readiness. A handoff summarizes your goal, constraints, completed work and next
 steps. You review and approve it before moving to a new task.
 
 [![FreshThread in action — looping demonstration.](assets/freshthread-demo.gif)](assets/freshthread-demo.mp4)
-
-## Privacy in short
-
-- **Runs on your computer.** FreshThread reads Codex's session files locally to
-  show the measurements. No account needed.
-- **Goes online for two things only:** checking GitHub for updates, and sending a
-  bug report when you click **Send report**. Handoffs run through Codex itself.
-- **The Codex connection is open source.** The [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge)
-  removes your prompts, commands and their output, and cannot go online. You can
-  check that the copy on your computer was built from that public code
-  ([how](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md)).
 
 ## Reading the panel
 
@@ -73,8 +62,7 @@ reports new activity and measurements.
 
 **The seven-day public beta is available.** Download the Windows x64 installer
 from this repository's [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
-The main app's source code remains private. The part that connects FreshThread
-to Codex is open source: [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge).
+The source code remains private.
 
 The beta runs for **7 days from its release date**, with the same deadline
 for everyone. Installing a patch will not extend it. No FreshThread account is
@@ -89,7 +77,7 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 <details name="freshthread-info">
 <summary><strong>Getting started</strong></summary>
 
-1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.4/FreshThread_0.2.6-beta.4_x64-setup.exe).
+1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
 3. Follow tip 2 above to restart Codex and enable the hooks.
 4. Open the FreshThread panel to view task activity or start a handoff.
@@ -97,7 +85,7 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 Automatic updates require separate signature verification; a download hash
 alone does not prove who published a file.
 
-The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.4/SHA256SUMS.txt)
+The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/SHA256SUMS.txt)
 for checking the installer's hash and a
 [GitHub release attestation](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/verify-release-integrity)
 for verifying that the installer belongs to this release.
@@ -163,14 +151,6 @@ only when you review the preview and select **Send report**; your optional
 description is included, and the report is retained for up to 30 days. Handoffs
 run through Codex, so model-based preparation may use Codex's model provider.
 The beta deadline is checked locally.
-
-Since beta.4, Codex connects to FreshThread through a small open-source program,
-the [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge). It
-removes your prompts, commands and their output, and it cannot go online. The
-only content it passes to the app is the short task summary Codex saves for a
-handoff. Anyone can check that the bridge on their computer was built from this
-public code ([how](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md)).
-The main app stays private.
 
 </details>
 
