@@ -3,6 +3,15 @@
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
+> **Release withdrawal — September 26, 2026:** Beta 4 has been withdrawn.
+> Downloads and the update feed now point to Beta 3. This does not automatically
+> downgrade an existing Beta 4 installation. Both versions use the same fixed
+> local telemetry port, so running FreshThread in two Windows sign-in sessions
+> can prevent the second instance from showing data. Beta 3 is not a fix for
+> that limitation. A replacement has not been released.
+>
+> The public bridge remains available for review, but it is not included in the
+> currently offered Beta 3 installer.
 **[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe)**
 
 > 💡 **1. Windows installer:** This beta is not yet signed with a Windows publisher
