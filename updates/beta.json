@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.3",
-  "notes": "FreshThread 0.2.6-beta.3",
-  "pub_date": "2026-09-24T08:48:50.9475401Z",
+  "version": "0.2.6-beta.4",
+  "notes": "FreshThread 0.2.6-beta.4",
+  "pub_date": "2026-09-26T11:31:06.9426041Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZmQ3SStwS1RGVitmU3B2eFNXWkkvOG14SForNjNySDdMTTFYUnhibzZpS2RRN0NrWXFHNHJPVE4rb3hxcVNIU3pSaVE0aDRiOTA4cXJrZ0ljVTBTbFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjM5Mzk1CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4zX3g2NC1zZXR1cC5leGUKVzBKVWEybEpuUGo4OUFVTW5QeDFoNkpsa0luTEhNUUMyVVdiUkNZcmR4SXpUeFlEdDJkMGRLbGNXMFd2dWFaUGd2WUpvZkJqdkpMakJqcWl4N292QXc9PQo=",
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlFheTBib01CRlBLVWZBd1ZtWHV3dHU0Tm96aGZtQ2VlUkZpZEpGSk9QRUpReGdBYnA3UlQ0UUFhQ1MzNE0vdG1sYmlXTklPRHZzZS9VRWJHbFJZQ3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDIxODgwCWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS40X3g2NC1zZXR1cC5leGUKb0x5UVI4ZlZsZzdEWnU4NHVQZWZyenBOS3FjendKWCtWbEJWQlpGc1ZjWncycTB1L0R2dFdJalFzem5ZeEU0SkY0Vy83aTRpVlFNTUJUbEU4K201RGc9PQo=",
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.4/FreshThread_0.2.6-beta.4_x64-setup.exe"
     }
   },
   "beta_campaign": {
