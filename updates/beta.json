@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.7",
-  "notes": "Prepare compatible background updates and confirm when the Codex connection is ready.",
-  "pub_date": "2026-09-27T10:55:03.8401851Z",
+  "version": "0.2.6-beta.8",
+  "notes": "Reduce repeated session-pressure calculation and database work while preserving measurements and refresh timing.",
+  "pub_date": "2026-09-27T11:54:40.8374775Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.7/FreshThread_0.2.6-beta.7_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlVBMTE3U3A4Vkc2dHQ2Z1RmZkpYakluY1I0S3F2aE9NVnB3TEY1VmxnWk9xTnN6WXVYZUdqUFZ4LzYreWN4RXFtTHZ0RjRWaWJHRS80dGxRY0p1cmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTA2NTAxCWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS43X3g2NC1zZXR1cC5leGUKOU02L09SaklRQ2ppR1lrMVp2N2FwNWtHOFd2clJWeDFMQXNYWDR3TUNibFIrYVBHUXllV1gyUnZoUnk0V1cvTStFMnRXaVlaY01FT2lTeVFGUFY3REE9PQo="
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.8/FreshThread_0.2.6-beta.8_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlZEdDRDMS9VczlPWTlkaXlaMnBDRkRnckFhS3EybDIzaldKeWZYYXBLa0t5c1VveHU0L2xqbHV4WkFIenRmYjgzODNKamQrSUV5UTdnMHlqUnZZaWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTEwMDc5CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS44X3g2NC1zZXR1cC5leGUKdzlmREhmZmtnUGlkMGw4WnB4bzdma3VYRXJBQXBhZGY3VmYwdURINEs3NUtBeUViR01xRHV0Y01QMlZSMXZ5TDFBMGFpdmp4Wmd1SnAxRVJXVml2RGc9PQo="
     }
   },
   "beta_campaign": {
