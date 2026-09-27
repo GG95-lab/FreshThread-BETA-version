@@ -100,8 +100,7 @@ alone does not prove who published a file.
 The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.5/SHA256SUMS.txt)
 for checking the installer's hash and an updater signature. You can also
 [verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.5).
-That release verification does not prove a build from the private desktop
-source. The separate public bridge has a
+The separate public bridge has a
 [build attestation and verification instructions](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 On a successful uninstall, FreshThread removes its Codex integration and restores
 the Codex settings it changed, leaving unrelated settings in place.
