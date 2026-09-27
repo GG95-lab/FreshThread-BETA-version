@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.6",
-  "notes": "Improved gauge visibility and startup, storage and shutdown recovery.",
-  "pub_date": "2026-09-27T09:48:40.7756053Z",
+  "version": "0.2.6-beta.7",
+  "notes": "Prepare compatible background updates and confirm when the Codex connection is ready.",
+  "pub_date": "2026-09-27T10:55:03.8401851Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.6/FreshThread_0.2.6-beta.6_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5Zlk1aDFxRXd0cHlRVjBJZXlXRDY1Ym5TaVFIOXhRS2pTZjROYlZQOC9iakJGWjVna1gvd1lrNHNra3J5ZkVoU1VNcG9QZHp5NFBkV3hsWGdtbDVhWEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTAyNTE4CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS42X3g2NC1zZXR1cC5leGUKVzBiUzJpNGI5cVBtck1zZTkzU2Fxb3hiZ2wxZm9jcGtSYkRGQU1qYmVsaTFpeHdocG5sM1dRc08reUpuU0ordHNJZXNqeXJ3Vnp2dHhHMXN3bGNqQ3c9PQo="
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.7/FreshThread_0.2.6-beta.7_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlVBMTE3U3A4Vkc2dHQ2Z1RmZkpYakluY1I0S3F2aE9NVnB3TEY1VmxnWk9xTnN6WXVYZUdqUFZ4LzYreWN4RXFtTHZ0RjRWaWJHRS80dGxRY0p1cmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTA2NTAxCWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS43X3g2NC1zZXR1cC5leGUKOU02L09SaklRQ2ppR1lrMVp2N2FwNWtHOFd2clJWeDFMQXNYWDR3TUNibFIrYVBHUXllV1gyUnZoUnk0V1cvTStFMnRXaVlaY01FT2lTeVFGUFY3REE9PQo="
     }
   },
   "beta_campaign": {
