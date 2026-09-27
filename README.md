@@ -1,7 +1,11 @@
 ![FreshThread — Start Fresh Without Starting Over.](assets/freshthread-banner.gif)
 
-**FreshThread is a Windows companion for Codex that shows task activity and helps
-you continue in a fresh task with your working context.**
+## Long Codex sessions can degrade after repeated compactions.
+
+**Start fresh without starting over.**
+
+Track context and compactions live, then carry the important context into a
+fresh task. FreshThread is a Windows companion for Codex Desktop.
 
 **[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.5/FreshThread_0.2.6-beta.5_x64-setup.exe)**
 
@@ -63,6 +67,12 @@ reports new activity and measurements.
 | Status | What it tells you |
 | :--- | :--- |
 | **Handoff** | Whether the working context is ready to carry into a new task. **You choose when to start.** |
+
+**A handoff example**
+
+| Before | After handoff |
+| :--- | :--- |
+| 242 turns, 140 compactions. | A fresh task with your goal, progress and next steps. |
 
 ![FreshThread panel — session pressure and handoff readiness.](assets/freshthread-panel.png)
 
