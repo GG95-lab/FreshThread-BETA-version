@@ -5,6 +5,10 @@ you continue in a fresh task with your working context.**
 
 **[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.5/FreshThread_0.2.6-beta.5_x64-setup.exe)**
 
+**Verify your download:** The [Beta 5 release notes](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.5)
+show how to check the installer against GitHub's immutable release. The
+[public bridge has separate build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
+
 > 💡 **Windows installer:** This beta is not yet signed with a Windows publisher
 > certificate. Windows may show an **“Unknown publisher”** warning when you run it.
 
@@ -94,9 +98,11 @@ Automatic updates require separate signature verification; a download hash
 alone does not prove who published a file.
 
 The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.5/SHA256SUMS.txt)
-for checking the installer's hash and an updater signature. The locally built
-desktop installer has no GitHub build attestation; the separate public bridge
-does have one, with [verification instructions](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
+for checking the installer's hash and an updater signature. You can also
+[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.5).
+That release verification does not prove a build from the private desktop
+source. The separate public bridge has a
+[build attestation and verification instructions](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 On a successful uninstall, FreshThread removes its Codex integration and restores
 the Codex settings it changed, leaving unrelated settings in place.
 
