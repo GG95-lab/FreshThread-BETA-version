@@ -3,30 +3,29 @@
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
-> **Release withdrawal — September 26, 2026:** Beta 4 has been withdrawn.
-> Downloads and the update feed now point to Beta 3. This does not automatically
-> downgrade an existing Beta 4 installation. Both versions use the same fixed
-> local telemetry port, so running FreshThread in two Windows sign-in sessions
-> can prevent the second instance from showing data. Beta 3 is not a fix for
-> that limitation. A replacement has not been released.
->
-> The public bridge remains available for review, but it is not included in the
-> currently offered Beta 3 installer.
 **[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe)**
 
-> 💡 **1. Windows installer:** This beta is not yet signed with a Windows publisher
+> 💡 **Windows installer:** This beta is not yet signed with a Windows publisher
 > certificate. Windows may show an **“Unknown publisher”** warning when you run it.
-
-> 💡 **2. After installing:** Let any active Codex task finish. If Codex is open, use
-> **File → Quit ChatGPT** to exit fully, then reopen it so it loads the
-> FreshThread integration. Closing only the window may leave Codex running.
-> Then enable the FreshThread hooks in **Settings → Hooks**.
 
 Its panel shows available context usage, completed turns, compactions and handoff
 readiness. A handoff summarizes your goal, constraints, completed work and next
 steps. You review and approve it before moving to a new task.
 
 [![FreshThread in action — looping demonstration.](assets/freshthread-demo.gif)](assets/freshthread-demo.mp4)
+
+## Privacy in short
+
+- **Runs on your computer.** FreshThread reads Codex's session files locally to
+  show the measurements. No account needed.
+- **Goes online for two things only:** checking GitHub for updates, and sending a
+  bug report when you click **Send report**. Handoffs run through Codex itself.
+- **The new Codex connection is open source.** The Beta 5 test installer routes
+  Codex hooks and MCP through the [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge).
+  You can review what it passes to the private app and [verify the installed
+  bridge binary](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md)
+  against its public release and build attestation. The currently offered Beta 3
+  installer predates this bridge.
 
 ## Reading the panel
 
@@ -71,7 +70,8 @@ reports new activity and measurements.
 
 **The seven-day public beta is available.** Download the Windows x64 installer
 from this repository's [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
-The source code remains private.
+The main app's source code remains private. Its newer Codex connection is open
+source: [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge).
 
 The beta runs for **7 days from its release date**, with the same deadline
 for everyone. Installing a patch will not extend it. No FreshThread account is
@@ -88,7 +88,7 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 
 1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.3/FreshThread_0.2.6-beta.3_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
-3. Follow tip 2 above to restart Codex and enable the hooks.
+3. Review and enable the FreshThread hooks in **Codex Settings → Hooks**.
 4. Open the FreshThread panel to view task activity or start a handoff.
 
 Automatic updates require separate signature verification; a download hash
@@ -160,6 +160,15 @@ only when you review the preview and select **Send report**; your optional
 description is included, and the report is retained for up to 30 days. Handoffs
 run through Codex, so model-based preparation may use Codex's model provider.
 The beta deadline is checked locally.
+
+The Beta 5 test installer routes Codex hooks and MCP through the open-source
+[FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge). The bridge
+discards raw prompts, commands and tool output. It forwards the event identifiers
+and metadata listed in its [verification guide](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md),
+and a handoff summary can contain user-authored content. The bridge itself has
+no network client; the private app still reads local Codex session data and has
+the update and optional bug-report paths described above. The currently offered
+Beta 3 installer does not include the bridge.
 
 </details>
 
