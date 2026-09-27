@@ -1,5 +1,11 @@
 ![FreshThread — Start Fresh Without Starting Over.](assets/freshthread-banner.gif)
 
+**Long Codex sessions can degrade after repeated compactions.**
+FreshThread helps you see when a session is getting overloaded and move the important context into a fresh task without starting over.
+
+**Before:** 242 turns and 140 compactions in one session.<br>
+**After handoff:** a fresh task that already knows your goal, progress and next steps.
+
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
