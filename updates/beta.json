@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.5",
-  "notes": "Use separate loopback telemetry listeners for simultaneous Windows profiles while preserving owned exporter settings.",
-  "pub_date": "2026-09-26T17:09:42.9812132Z",
+  "version": "0.2.6-beta.6",
+  "notes": "Improved gauge visibility and startup, storage and shutdown recovery.",
+  "pub_date": "2026-09-27T09:48:40.7756053Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlJydGRtbUptenF0N2lOMW9qZHVDVXF6clBENlNra2hvbG9yR0tnYzQ5UXB6SzRCQmRTZlMxT1llRllrTTBMQTY2VEM3aWtQbU5ybjloQjhGV3VLa0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDQyNDg0CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS41X3g2NC1zZXR1cC5leGUKc2dwR2hwOUtwQ25keW0yeGV2dTBzanRsTkgrSW9TbUs5NlVxYm14ODVpT2FOWEVtOWlLeU5haUpLbTVab3MvMDF3Qno3ZkFmWFFJejJQUmM3aVZhQ1E9PQo=",
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.5/FreshThread_0.2.6-beta.5_x64-setup.exe"
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.6/FreshThread_0.2.6-beta.6_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5Zlk1aDFxRXd0cHlRVjBJZXlXRDY1Ym5TaVFIOXhRS2pTZjROYlZQOC9iakJGWjVna1gvd1lrNHNra3J5ZkVoU1VNcG9QZHp5NFBkV3hsWGdtbDVhWEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTAyNTE4CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS42X3g2NC1zZXR1cC5leGUKVzBiUzJpNGI5cVBtck1zZTkzU2Fxb3hiZ2wxZm9jcGtSYkRGQU1qYmVsaTFpeHdocG5sM1dRc08reUpuU0ordHNJZXNqeXJ3Vnp2dHhHMXN3bGNqQ3c9PQo="
     }
   },
   "beta_campaign": {
