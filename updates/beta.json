@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.10",
-  "notes": "Correct gauge startup position drift and match its glow to the panel dark blue; preserve layout, actions and refresh behavior.",
-  "pub_date": "2026-09-28T05:31:08.8709467Z",
+  "version": "0.2.6-beta.11",
+  "notes": "Match the panel to Codex light or dark mode, with a crisp translucent blue gauge and a visible light-mode hover.",
+  "pub_date": "2026-09-28T08:43:23.8717091Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.10/FreshThread_0.2.6-beta.10_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5Zlk3SFd1bFk2Z0FOM21VVnJKem1NNWE3anNXWUJKTVdMeHJtVnJZUFJtcTVBTFZJUjFqc0VlMTNyT0w1WmMxa1gxanFGVzQ3UDFSMGRqR3dNMlZEeVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTczNDY3CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xMF94NjQtc2V0dXAuZXhlCi9Pcm5BVzdHYm84SFVydzhVeUN5NzlDanFIZEhzdmxXaHJhMFp4R1Faa1RxbUVWcVVUWER0WkNpd2lYN0FINnJTYXVUcGdqYWFHc3l0Ti9iaWtySUJnPT0K"
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.11/FreshThread_0.2.6-beta.11_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlkwRmN6d3RZSnB1ZjlUdFR4WEdaZTVYTHhEUFBveEYxVDhXWVNwMG5XOExzbHZKdXZKOXhOdWV0RHdkcDV1SjJIQ0Z3dGU2cW5xR1JVbXhYY2k2TVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTg0OTg3CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xMV94NjQtc2V0dXAuZXhlCkkveklES0hQRDByL3pOekU4WEFFNFN5eFpGSW0rVWR2OVFhUVprQTJ4OWdZS3VIVUtLeEo1dDJNRDdWYkF4NW56aEF6VjFmeE10VERaQXRlYjd2L0FnPT0K"
     }
   },
   "beta_campaign": {
