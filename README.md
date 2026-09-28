@@ -9,11 +9,11 @@ FreshThread helps you see when a session is getting overloaded and move the impo
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
-**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.11/FreshThread_0.2.6-beta.11_x64-setup.exe)**
+**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.12/FreshThread_0.2.6-beta.12_x64-setup.exe)**
 
-**Verify your download:** The [Beta 11 release notes](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.11)
+**Verify your download:** The [Beta 12 release notes](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.12)
 show how to check the installer against GitHub's immutable release. The
-[public bridge has separate build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
+[bridge and network viewer each have build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 
 > 💡 **Windows installer:** This beta is not yet signed with a Windows publisher
 > certificate. Windows may show an **“Unknown publisher”** warning when you run it.
@@ -35,6 +35,11 @@ steps. You review and approve it before moving to a new task.
   You can review what it passes to the private app and [verify the installed
   bridge binary](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md)
   against its public release and build attestation.
+- **See network activity yourself.** Open **Network activity…** from the
+  FreshThread tray menu. A separate open-source viewer shows connections Windows
+  reports for FreshThread and related programs. It watches only while open and
+  unpaused, and saves or uploads nothing. Very short connections can be missed.
+  [Read how it works and verify your copy](https://github.com/GG95-lab/FreshThread-bridge/blob/main/NETWORK.md).
 
 ## Reading the panel
 
@@ -96,7 +101,7 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 <details name="freshthread-info">
 <summary><strong>Getting started</strong></summary>
 
-1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.11/FreshThread_0.2.6-beta.11_x64-setup.exe).
+1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.12/FreshThread_0.2.6-beta.12_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
 3. Review and enable the FreshThread hooks in **Codex Settings → Hooks**.
 4. Open the FreshThread panel to view task activity or start a handoff.
@@ -104,10 +109,10 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 Automatic updates require separate signature verification; a download hash
 alone does not prove who published a file.
 
-The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.11/SHA256SUMS.txt)
+The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.12/SHA256SUMS.txt)
 for checking the installer's hash and an updater signature. You can also
-[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.11).
-The separate public bridge has a
+[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.12).
+The separate public bridge and network viewer each have a
 [build attestation and verification instructions](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 On a successful uninstall, FreshThread removes its Codex integration and restores
 the Codex settings it changed, leaving unrelated settings in place.
