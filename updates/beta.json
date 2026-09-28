@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.9",
-  "notes": "Add soft inward blue panel lighting and a subtle gauge glow while preserving layout, actions and refresh behavior.",
-  "pub_date": "2026-09-27T13:00:34.8642303Z",
+  "version": "0.2.6-beta.10",
+  "notes": "Correct gauge startup position drift and match its glow to the panel dark blue; preserve layout, actions and refresh behavior.",
+  "pub_date": "2026-09-28T05:31:08.8709467Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlpzLzJLZFVUbUpObllXY1hHWHlPeFRPaVlTR0R0c0dWWkNuaStUeDFKMCt6Q2pmaGQwSTl3Q2dDZkg4V0JjaVhrNzZTelBxSFVmdUhHQzhKTzBiK3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTE0MDMyCWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS45X3g2NC1zZXR1cC5leGUKM3NYbit0ZGNVYmt3TlZGV0R2NncvVGJIdHI2dEI3Qng5dTFVTzBmWGp2MHc2UVBnSktsaWZ1dy8zVW5LN2VONGFIMk5qaW9oTk81RzdwMlEwcE9XQXc9PQo=",
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.9/FreshThread_0.2.6-beta.9_x64-setup.exe"
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.10/FreshThread_0.2.6-beta.10_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5Zlk3SFd1bFk2Z0FOM21VVnJKem1NNWE3anNXWUJKTVdMeHJtVnJZUFJtcTVBTFZJUjFqc0VlMTNyT0w1WmMxa1gxanFGVzQ3UDFSMGRqR3dNMlZEeVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTczNDY3CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xMF94NjQtc2V0dXAuZXhlCi9Pcm5BVzdHYm84SFVydzhVeUN5NzlDanFIZEhzdmxXaHJhMFp4R1Faa1RxbUVWcVVUWER0WkNpd2lYN0FINnJTYXVUcGdqYWFHc3l0Ti9iaWtySUJnPT0K"
     }
   },
   "beta_campaign": {
