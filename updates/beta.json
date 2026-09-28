@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.11",
-  "notes": "Match the panel to Codex light or dark mode, with a crisp translucent blue gauge and a visible light-mode hover.",
-  "pub_date": "2026-09-28T08:43:23.8717091Z",
+  "version": "0.2.6-beta.12",
+  "notes": "Add an independently verifiable network activity viewer, a blue terminal-style bug report window, and slightly brighter dark-mode gauge lines.",
+  "pub_date": "2026-09-28T11:12:26.895103Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.11/FreshThread_0.2.6-beta.11_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlkwRmN6d3RZSnB1ZjlUdFR4WEdaZTVYTHhEUFBveEYxVDhXWVNwMG5XOExzbHZKdXZKOXhOdWV0RHdkcDV1SjJIQ0Z3dGU2cW5xR1JVbXhYY2k2TVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTg0OTg3CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xMV94NjQtc2V0dXAuZXhlCkkveklES0hQRDByL3pOekU4WEFFNFN5eFpGSW0rVWR2OVFhUVprQTJ4OWdZS3VIVUtLeEo1dDJNRDdWYkF4NW56aEF6VjFmeE10VERaQXRlYjd2L0FnPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZmQ2SndSNXdzOElES2JGemtFOVNiYk5LM2hqbzdPQlh3czJiRGViUHFETmE5V0dvdDFQNE1sSmpjZXduUy85QnlNNkdWTUozNUVSMkZzZE01M2cycEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTkzOTMwCWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xMl94NjQtc2V0dXAuZXhlCkdONEptWVQzcmF5UVZ1ZTFaL0d0ck1tNEN3MUtmRXE0QVBENi9mM0RxbmJhT0xPUDNhVGphaVdIWWxhaDNpbzRsSVpjQzM3b2RvTXJHYjEyRzVsTERRPT0K",
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.12/FreshThread_0.2.6-beta.12_x64-setup.exe"
     }
   },
   "beta_campaign": {
