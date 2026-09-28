@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.13",
-  "notes": "Refine the gauge in both themes with a slightly larger shape and a soft deep-blue glow behind crisp foreground lines.",
-  "pub_date": "2026-09-28T12:12:11.4118916Z",
+  "version": "0.2.6-beta.14",
+  "notes": "Clarify diagnostic previews and network activity, with local-only DNS cache hints and independently verified public components.",
+  "pub_date": "2026-09-28T13:10:34.1118209Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.13/FreshThread_0.2.6-beta.13_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlZ0cDR2U3BQN0lXNmU3NEFDTGVzeWQrOW90SHJmMjJ2T1FXUG1BRWF5YUw2NjJpdnpNc2FiSXhnYXZFVUFkcWlBVnJ3VGxCRU0zMHRiSUsvU3NXcXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTk3NTE3CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xM194NjQtc2V0dXAuZXhlCjI4U0ZtRXhLenptUHJ3dHNTUVZFR25Ua2lrRWZ5ODVPSjJpRFdsWjNGa2lPRCtBMlozdzMzSVY0ZG85MGEvVEZhNWhBeXlHL0N5blNIdzlYRWVLZkNnPT0K"
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.14/FreshThread_0.2.6-beta.14_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlIrVklrTE5keE5qdnZab1J0eHhUN3plcHE4emNnRmdSZDh5NHFPelVzMURETUVrbnA3UXFQSURLV2RiblFvRW1tRmtvVFE2T29HcUZtQ3FPVFgxQUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjAxMDE2CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xNF94NjQtc2V0dXAuZXhlCng1eHFIWEo3eG5CL1FjVVVwSjJZL2dIbEhJMnNBYlBqbFhvVW1VNVFCdTNTTmI1SFVUdis0U1dqOFJNbktHdWZVZ1I4b3krcEpObWJvdVZlM0YzeUFRPT0K"
     }
   },
   "beta_campaign": {
