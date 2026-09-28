@@ -9,9 +9,9 @@ FreshThread helps you see when a session is getting overloaded and move the impo
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
-**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.9/FreshThread_0.2.6-beta.9_x64-setup.exe)**
+**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.10/FreshThread_0.2.6-beta.10_x64-setup.exe)**
 
-**Verify your download:** The [Beta 9 release notes](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.9)
+**Verify your download:** The [Beta 10 release notes](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.10)
 show how to check the installer against GitHub's immutable release. The
 [public bridge has separate build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 
@@ -95,7 +95,7 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 <details name="freshthread-info">
 <summary><strong>Getting started</strong></summary>
 
-1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.9/FreshThread_0.2.6-beta.9_x64-setup.exe).
+1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.10/FreshThread_0.2.6-beta.10_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
 3. Review and enable the FreshThread hooks in **Codex Settings → Hooks**.
 4. Open the FreshThread panel to view task activity or start a handoff.
@@ -103,9 +103,9 @@ The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
 Automatic updates require separate signature verification; a download hash
 alone does not prove who published a file.
 
-The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.9/SHA256SUMS.txt)
+The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.10/SHA256SUMS.txt)
 for checking the installer's hash and an updater signature. You can also
-[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.9).
+[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.10).
 The separate public bridge has a
 [build attestation and verification instructions](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 On a successful uninstall, FreshThread removes its Codex integration and restores
