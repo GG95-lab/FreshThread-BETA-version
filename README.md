@@ -27,9 +27,13 @@ steps. You review and approve it before moving to a new task.
 ## Privacy in short
 
 - **Runs on your computer.** FreshThread reads Codex's session files locally to
-  show the measurements. No account needed.
+  show the measurements and keeps its own data in a local app folder. No account
+  needed.
 - **Goes online for two things only:** checking GitHub for updates, and sending a
-  bug report when you click **Send report**. Handoffs run through Codex itself.
+  bug report when you click **Send report**. Handoffs run through Codex itself,
+  and a handoff summary can include text you wrote.
+- **Bug reports stay in your hands.** You see the full report before sending. It
+  has no conversation text by default and is kept for up to 30 days.
 - **The Codex connection is open source.** The current installer routes
   Codex hooks and MCP through the [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge).
   You can review what it passes to the private app and [verify the installed
@@ -157,30 +161,6 @@ identifiers or raw diagnostic folders.
 Report security vulnerabilities through
 [private reporting](https://github.com/GG95-lab/FreshThread-BETA-version/security/advisories/new),
 not public issues.
-
-</details>
-
-<details name="freshthread-info">
-<summary><strong>Your data</strong></summary>
-
-FreshThread reads Codex's local session files to show task activity. It writes
-checkpoints and diagnostics in its own local app folder and installs its
-integration and hooks in Codex. Diagnostic reports do not include conversation
-text by default; review the preview and your optional description before sending.
-
-FreshThread contacts GitHub to check for updates. It sends a diagnostic report
-only when you review the preview and select **Send report**; your optional
-description is included, and the report is retained for up to 30 days. Handoffs
-run through Codex, so model-based preparation may use Codex's model provider.
-The beta deadline is checked locally.
-
-The current installer routes Codex hooks and MCP through the open-source
-[FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge). The bridge
-discards raw prompts, commands and tool output. It forwards the event identifiers
-and metadata listed in its [verification guide](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md),
-and a handoff summary can contain user-authored content. The bridge itself has
-no network client; the private app still reads local Codex session data and has
-the update and optional bug-report paths described above.
 
 </details>
 
