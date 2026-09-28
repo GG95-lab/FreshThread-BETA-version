@@ -191,3 +191,8 @@ After that, compatible app updates can reconnect in the background while Codex
 stays open. FreshThread confirms when the updated connection is ready.
 
 </details>
+
+---
+
+<sub>FreshThread is an independent tool for OpenAI Codex, not made or endorsed by OpenAI.<br>
+The Codex pet belongs to OpenAI and only shows that FreshThread works with Codex.</sub>
