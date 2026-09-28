@@ -9,9 +9,9 @@ FreshThread helps you see when a session is getting overloaded and move the impo
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
-**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.12/FreshThread_0.2.6-beta.12_x64-setup.exe)**
+**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.13/FreshThread_0.2.6-beta.13_x64-setup.exe)**
 
-**Verify your download:** The [Beta 12 release notes](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.12)
+**Verify your download:** The [Beta 13 release notes](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.6-beta.13)
 show how to check the installer against GitHub's immutable release. The
 [bridge and network viewer each have build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 
