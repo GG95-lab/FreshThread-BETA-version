@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.17",
-  "notes": "Correct task identity, background lookup and handoff completion; preserve report drafts and drain FreshThread operations before automatic updates. Supports CODEX_HOME and Windows hook shells. Includes the independently verified bridge and network viewer.",
-  "pub_date": "2026-09-30T11:00:52.1635519Z",
+  "version": "0.2.7-beta.1",
+  "notes": "Reuse supported exact-task handoffs after interrupted turns; recover reviews, concurrent approval and partial drafts. Check updates every five minutes and preserve drafts while draining owned operations. Preserve future database schemas and interrupted archives; retain fixed update failure diagnostics.",
+  "pub_date": "2026-09-30T14:13:22.7007375Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZmJpdGpFcVJYSUwwenJBU0dtcm55RFBaSDVNUGcxOHNLQU1uK2h4RXBNRGE4OUN0bWpOQVBoNVMxSE5nOWRkSnBVMC9YZW03L0FibFpqN2FCc1JCM1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzY2MDM1CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xN194NjQtc2V0dXAuZXhlCklSeWpzSkRkcHlPaUtmNEtHampYeDk2ZnFOSFFHZFNxMGJ3cFFlWXBqOHZkVHJrREpmenFMN0FScXFsRjVscktrTDVWYWZBOGVTckJCTlk0djJOZ0RnPT0K",
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.17/FreshThread_0.2.6-beta.17_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZmMxR1RNTFJHNUJhZmRIdVQzdXBrZ1NxWU1wK0MvZVpnOVY1RHhmbkxYUjRJWVdINjNTdWk2b2JBVVp1dnEveDExZStkMGRubHBVMnoxSTVpQXlhVlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzc3NTg2CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjctYmV0YS4xX3g2NC1zZXR1cC5leGUKdUJqMW13OFQzZFRGZGo1aXQ2OWlwZU9BYWFaeXZUaHdLa0MyTjFrYVlUWXMzMGhDck1VL3ZYenFyWEtRTXBINlJzUWZKQTV4cmd4MUNpQ3VtT1BYQmc9PQo=",
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.7-beta.1/FreshThread_0.2.7-beta.1_x64-setup.exe"
     }
   },
   "beta_campaign": {
