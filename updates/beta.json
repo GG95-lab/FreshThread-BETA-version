@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6-beta.14",
-  "notes": "Clarify diagnostic previews and network activity, with local-only DNS cache hints and independently verified public components.",
-  "pub_date": "2026-09-28T13:10:34.1118209Z",
+  "version": "0.2.6-beta.15",
+  "notes": "Restore compatibility with current Codex cursor schemas and refresh outdated compatibility checks. Includes the independently verified bridge and network viewer.",
+  "pub_date": "2026-09-30T05:48:36.2626949Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.14/FreshThread_0.2.6-beta.14_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlIrVklrTE5keE5qdnZab1J0eHhUN3plcHE4emNnRmdSZDh5NHFPelVzMURETUVrbnA3UXFQSURLV2RiblFvRW1tRmtvVFE2T29HcUZtQ3FPVFgxQUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjAxMDE2CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xNF94NjQtc2V0dXAuZXhlCng1eHFIWEo3eG5CL1FjVVVwSjJZL2dIbEhJMnNBYlBqbFhvVW1VNVFCdTNTTmI1SFVUdis0U1dqOFJNbktHdWZVZ1I4b3krcEpObWJvdVZlM0YzeUFRPT0K"
+      "url": "https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.6-beta.15/FreshThread_0.2.6-beta.15_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZmV6ajlKNEhudGlKbWhkRkNqMTBqVFhsNE5nL1c2N2pZdEszSjBZQS9jQVRSbjJkaWk3NDlEUk9HQUY0S1oxbEExbmpnTTJiM3c4eForczZqSmMySGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzQ3MjkyCWZpbGU6RnJlc2hUaHJlYWRfMC4yLjYtYmV0YS4xNV94NjQtc2V0dXAuZXhlCnJ0SWdLaHVhMlJacTMwTDBIZ0RTV2lsM0h2R0lqZTN5ZHdPQXRoaVNENzM0MmhOQ1VaK3J3WUxESElQYW5Zd1laNWZrQytBYVV4eU9YdW0wOVZjakJRPT0K"
     }
   },
   "beta_campaign": {
