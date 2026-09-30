@@ -80,7 +80,11 @@ It follows Codex's light or dark appearance, with the same layout in both modes.
 | :--- | :--- |
 | **Handoff** | Whether the working context is ready to carry into a new task. **You choose when to start.** |
 
-![FreshThread panel — session pressure and handoff readiness.](assets/freshthread-panel-v3.png)
+<p align="center">
+  <img src="assets/freshthread-panel-dark.png" width="49%" alt="FreshThread panel in dark mode — session pressure and handoff readiness.">
+  <img src="assets/freshthread-panel-light.png" width="49%" alt="FreshThread panel in light mode — session pressure and handoff readiness.">
+</p>
+<p align="center"><sub>The panel follows your Codex appearance setting: light, dark, or your system theme.</sub></p>
 
 ---
 
