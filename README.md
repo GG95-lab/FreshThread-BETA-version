@@ -20,7 +20,8 @@ you continue in a fresh task with your working context.**
 
 **[Download for Windows — Free Early Access (x64)](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe)**
 
-> 💡 FreshThread doesn’t yet have a Windows publisher signature. For transparency, the
+> [!IMPORTANT]
+> FreshThread doesn’t yet have a Windows publisher signature. For transparency, the
 > component that connects FreshThread to Codex and the network viewer are both
 > [open source](https://github.com/GG95-lab/FreshThread-bridge), with
 > [independently verifiable GitHub builds](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
