@@ -2,6 +2,13 @@
 
 <h3 align="center">Your sessions, finally visible. See the data behind your Codex work.</h3>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Free-Early%20Access-22d3ee" alt="Free Early Access">
+  <a href="https://github.com/GG95-lab/FreshThread-app/releases/latest"><img src="https://img.shields.io/github/v/release/GG95-lab/FreshThread-app?label=version&color=6366f1" alt="Latest version"></a>
+  <a href="https://github.com/GG95-lab/FreshThread-bridge"><img src="https://img.shields.io/badge/Codex%20bridge-open%20source-2ea44f?logo=github" alt="Open-source Codex bridge"></a>
+</p>
+
 **Long Codex sessions can degrade after repeated compactions.**
 FreshThread helps you see when a session is getting overloaded and move the important context into a fresh task without starting over.
 
@@ -13,7 +20,8 @@ you continue in a fresh task with your working context.**
 
 **[Download for Windows — Free Early Access (x64)](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe)**
 
-> 💡 FreshThread doesn’t yet have a Windows publisher signature. For transparency, the
+> [!TIP]
+> FreshThread doesn’t yet have a Windows publisher signature. For transparency, the
 > component that connects FreshThread to Codex and the network viewer are both
 > [open source](https://github.com/GG95-lab/FreshThread-bridge), with
 > [independently verifiable GitHub builds](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
