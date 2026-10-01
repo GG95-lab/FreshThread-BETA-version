@@ -39,25 +39,17 @@ steps. You review and approve it before moving to a new task.
 
 ## Privacy in short
 
-- **Runs on your computer.** FreshThread reads Codex's session files locally to
-  show the measurements and keeps its own data in a local app folder. No account
-  needed.
-- **Goes online for updates and reports:** checking GitHub for updates and their signed minimum-version policy, and sending a
-  bug report when you click **Send report**. Handoffs run through Codex itself,
-  and a handoff summary can include text you wrote.
-- **Bug reports stay in your hands.** Review the diagnostics under **Details**,
-  your description, choices and any optional screenshot before sending. Automatic
-  diagnostics contain no conversations or code. Reports are kept for 30 days.
-- **The Codex connection is open source.** The current installer routes
-  Codex hooks and MCP through the [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge).
-  You can review what it passes to the private app and [verify the installed
-  bridge binary](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md)
-  against its public release and build attestation.
-- **See network activity yourself.** Open **Network activity…** from the
-  FreshThread tray menu. A separate open-source viewer shows connections Windows
-  reports for FreshThread and related programs. It watches only while open and
-  unpaused, and saves or uploads nothing. Very short connections can be missed.
-  [Read how it works and verify your copy](https://github.com/GG95-lab/FreshThread-bridge/blob/main/NETWORK.md).
+- **Local data.** FreshThread reads Codex session files on your PC and stores
+  its own data locally.
+- **Network access.** FreshThread checks for updates and their signed
+  minimum-version policy. Bug reports are sent only when you choose.
+- **Handoffs.** The context you approve, which may include text you wrote,
+  is passed to a new task through Codex.
+- **Bug reports.** Review before sending. Automatic diagnostics contain no
+  conversations or code. Reports are kept for 30 days.
+
+**See network activity yourself:** open **Network activity…** from the tray menu.
+[How the viewer works](https://github.com/GG95-lab/FreshThread-bridge/blob/main/NETWORK.md).
 
 ## Reading the panel
 
