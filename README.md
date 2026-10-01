@@ -9,13 +9,13 @@ FreshThread helps you see when a session is getting overloaded and move the impo
 **FreshThread is a Windows companion for Codex that shows task activity and helps
 you continue in a fresh task with your working context.**
 
-**[Download for Windows beta (x64)](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.7-beta.1/FreshThread_0.2.7-beta.1_x64-setup.exe)**
+**[Download for Windows — Free Early Access (x64)](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe)**
 
-**Verify your download:** The [0.2.7-beta.1 release notes](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.7-beta.1)
+**Verify your download:** The [0.2.7 release notes](https://github.com/GG95-lab/FreshThread-app/releases/tag/v0.2.7)
 show how to check the installer against GitHub's immutable release. The
 [bridge and network viewer each have build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 
-> 💡 **Windows installer:** This beta is not yet signed with a Windows publisher
+> 💡 **Windows installer:** This installer is not yet signed with a Windows publisher
 > certificate. Windows may show an **“Unknown publisher”** warning when you run it.
 
 Its panel shows available context usage, completed turns, compactions and handoff
@@ -29,11 +29,12 @@ steps. You review and approve it before moving to a new task.
 - **Runs on your computer.** FreshThread reads Codex's session files locally to
   show the measurements and keeps its own data in a local app folder. No account
   needed.
-- **Goes online for two things only:** checking GitHub for updates, and sending a
+- **Goes online for updates and reports:** checking GitHub for updates and their signed minimum-version policy, and sending a
   bug report when you click **Send report**. Handoffs run through Codex itself,
   and a handoff summary can include text you wrote.
-- **Bug reports stay in your hands.** You see the full report before sending. It
-  has no conversation text by default and is kept for up to 30 days.
+- **Bug reports stay in your hands.** Review the diagnostics under **Details**,
+  your description, choices and any optional screenshot before sending. Automatic
+  diagnostics contain no conversations or code. Reports are kept for 30 days.
 - **The Codex connection is open source.** The current installer routes
   Codex hooks and MCP through the [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge).
   You can review what it passes to the private app and [verify the installed
@@ -89,27 +90,29 @@ It follows Codex's light or dark appearance, with the same layout in both modes.
 ---
 
 <details name="freshthread-info">
-<summary><strong>Beta status</strong></summary>
+<summary><strong>Free Early Access</strong></summary>
 
-**The seven-day public beta is available.** Download the Windows x64 installer
-from this repository's [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
+**Free Early Access is available, with no fixed expiry date.** Download the Windows x64 installer
+from this repository's [Releases](https://github.com/GG95-lab/FreshThread-app/releases).
 The main app's source code remains private. Its newer Codex connection is open
 source: [FreshThread bridge](https://github.com/GG95-lab/FreshThread-bridge).
 
-The beta runs for **7 days from its release date**, with the same deadline
-for everyone. Installing a patch will not extend it. No FreshThread account is
-required. The deadline works offline using the local clock; after expiry, user
-data, bug reporting and updates remain available.
+No FreshThread account is required. This is an early-access release, and features
+may still change. Free Early Access does not promise lifetime free access or
+include a future paid license.
 
-The beta runs from **September 24, 2026 at 11:00** to **October 1, 2026 at
-11:00 Budapest time**. The beta has no participant limit.
+Updates install automatically. A future signed minimum-version policy may require
+an update to continue using the main features. Download or network errors alone
+do not end access; an already-confirmed requirement remains in effect. Your local
+data, reporting and the updater remain available. Any later paid version will
+have its own terms. The old beta's fixed deadline does not apply to this version.
 
 </details>
 
 <details name="freshthread-info">
 <summary><strong>Getting started</strong></summary>
 
-1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.7-beta.1/FreshThread_0.2.7-beta.1_x64-setup.exe).
+1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
 3. Review and enable the FreshThread hooks in **Codex Settings → Hooks**.
 4. Open the FreshThread panel to view task activity or start a handoff.
@@ -123,9 +126,9 @@ Beta 17 changes the hook definition, so Codex may ask you to review it again.
 Automatic updates require separate signature verification; a download hash
 alone does not prove who published a file.
 
-The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-BETA-version/releases/download/v0.2.7-beta.1/SHA256SUMS.txt)
+The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/SHA256SUMS.txt)
 for checking the installer's hash and an updater signature. You can also
-[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-BETA-version/releases/tag/v0.2.7-beta.1).
+[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-app/releases/tag/v0.2.7).
 The separate public bridge and network viewer each have a
 [build attestation and verification instructions](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 On a successful uninstall, FreshThread removes its Codex integration and restores
@@ -152,11 +155,13 @@ you find a workaround.
 <details name="freshthread-info">
 <summary><strong>Report a problem</strong></summary>
 
-In the beta, open **FreshThread tray menu → Report a bug**. Review the diagnostic
-preview, optionally describe the problem, then choose **Send report** for a
+Open **FreshThread tray menu → Report a bug**. Choose **Something broke**, **Too
+slow** or **Idea**. Optionally describe the issue, say whether it blocks your work,
+or attach a screenshot. Review the image and the diagnostics under **Details**,
+then choose **Send report** for a
 private report. No account is needed, and nothing is uploaded until you send it.
 
-Prefer GitHub? **Copy diagnostics** and **Report on GitHub** remain available.
+Prefer GitHub? **Copy diagnostics** and **GitHub** remain available.
 GitHub issues are public and require a GitHub account. Search existing issues,
 then use **Issues → New issue → Bug report**. Include:
 
@@ -169,7 +174,7 @@ diagnostics. Never upload conversations, databases, credentials, account
 identifiers or raw diagnostic folders.
 
 Report security vulnerabilities through
-[private reporting](https://github.com/GG95-lab/FreshThread-BETA-version/security/advisories/new),
+[private reporting](https://github.com/GG95-lab/FreshThread-app/security/advisories/new),
 not public issues.
 
 </details>
@@ -179,11 +184,13 @@ not public issues.
 
 From 0.2.7-beta.1, installations check for signed updates at startup and every
 five minutes. Automatic activation waits for FreshThread's own operations to
-finish and preserves unsent report descriptions, including while Codex works.
+finish, including while Codex works. This release also preserves unsent report
+descriptions, choices and optional screenshots locally through an update.
 Older installed versions keep their existing check interval until updated.
-New beta releases also
-appear under [Releases](https://github.com/GG95-lab/FreshThread-BETA-version/releases).
-A patch does not restart the seven-day deadline.
+New releases also
+appear under [Releases](https://github.com/GG95-lab/FreshThread-app/releases).
+Free Early Access has no fixed expiry date. A required upgrade is accepted only
+from a cryptographically verified minimum-version policy.
 
 Upgrading from beta.6 or earlier needs one Codex restart to load the new bridge.
 After that, compatible app updates can reconnect in the background while Codex
