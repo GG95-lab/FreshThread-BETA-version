@@ -15,11 +15,11 @@ you continue in a fresh task with your working context.**
 show how to check the installer against GitHub's immutable release. The
 [bridge and network viewer each have build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 
-> 💡 **Windows installer:** This installer is not yet signed with a Windows publisher
-> certificate. Windows may show an **“Unknown publisher”** warning when you run it.
-
-> 💡 **The Codex connection is open source.** Review exactly what FreshThread reads and
-> passes on: [FreshThread-bridge](https://github.com/GG95-lab/FreshThread-bridge).
+> 💡 FreshThread doesn’t yet have a Windows publisher signature. For transparency, the
+> component that connects FreshThread to Codex and the network viewer are both
+> [open source](https://github.com/GG95-lab/FreshThread-bridge), with
+> [independently verifiable GitHub builds](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
+> You can review their code and verify the components included in your installation.
 
 Its panel shows available context usage, completed turns, compactions and handoff
 readiness. A handoff summarizes your goal, constraints, completed work and next
