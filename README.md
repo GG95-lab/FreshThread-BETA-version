@@ -89,6 +89,7 @@ It follows Codex's light or dark appearance, with the same layout in both modes.
 
 ---
 
+<a name="free-early-access"></a>
 <details name="freshthread-info">
 <summary><strong>Free Early Access</strong></summary>
 
