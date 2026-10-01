@@ -15,8 +15,13 @@ FreshThread helps you see when a session is getting overloaded and move the impo
 **Before:** in a 372-turn session, Codex got stuck on one fix and kept repeating failed attempts.<br>
 **After handoff:** the same fix, in a fresh task that already knew the context, worked on the first try.
 
-**FreshThread is a Windows companion for Codex that shows task activity and helps
-you continue in a fresh task with your working context.**
+**FreshThread is a Windows companion with a dedicated Codex plugin for tracking long sessions, compaction pressure, and carrying working context into fresh tasks.**
+
+> 💡 **Codex Plugin Integration**
+>
+> FreshThread integrates with Codex through an MCP server, a skill, and lifecycle hooks for local session monitoring and handoff support.
+>
+> The plugin is installed locally by the FreshThread Windows app and requires that app to work.
 
 **[Download for Windows — Free Early Access (x64)](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe)**
 
