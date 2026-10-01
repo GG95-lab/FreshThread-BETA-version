@@ -18,6 +18,9 @@ show how to check the installer against GitHub's immutable release. The
 > 💡 **Windows installer:** This installer is not yet signed with a Windows publisher
 > certificate. Windows may show an **“Unknown publisher”** warning when you run it.
 
+> 💡 **The Codex connection is open source.** Review exactly what FreshThread reads and
+> passes on: [FreshThread-bridge](https://github.com/GG95-lab/FreshThread-bridge).
+
 Its panel shows available context usage, completed turns, compactions and handoff
 readiness. A handoff summarizes your goal, constraints, completed work and next
 steps. You review and approve it before moving to a new task.
