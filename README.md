@@ -37,20 +37,6 @@ steps. You review and approve it before moving to a new task.
 
 [![Watch the FreshThread demo on YouTube (1:07)](assets/freshthread-demo-cover-v2.png)](https://www.youtube.com/watch?v=rbEC1oFzns4)
 
-## Privacy in short
-
-- **Local data.** FreshThread reads Codex session files on your PC and stores
-  its own data locally.
-- **Network access.** FreshThread checks for updates and their signed
-  minimum-version policy. Bug reports are sent only when you choose.
-- **Handoffs.** The context you approve, which may include text you wrote,
-  is passed to a new task through Codex.
-- **Bug reports.** Review before sending. Automatic diagnostics contain no
-  conversations or code. Reports are kept for 30 days.
-
-**See network activity yourself:** open **Network activity…** from the tray menu.
-[How the viewer works](https://github.com/GG95-lab/FreshThread-bridge/blob/main/NETWORK.md).
-
 ## Reading the panel
 
 The panel updates live as you work, following the selected session as Codex
@@ -91,6 +77,20 @@ It follows Codex's light or dark appearance, with the same layout in both modes.
   <img src="assets/freshthread-panel-light.png" width="49%" alt="FreshThread panel in light mode — session pressure and handoff readiness.">
 </p>
 <p align="center"><sub>The panel follows your Codex appearance setting: light, dark, or your system theme.</sub></p>
+
+## Privacy in short
+
+- **Local data.** FreshThread reads Codex session files on your PC and stores
+  its own data locally.
+- **Network access.** FreshThread checks for updates and their signed
+  minimum-version policy. Bug reports are sent only when you choose.
+- **Handoffs.** The context you approve, which may include text you wrote,
+  is passed to a new task through Codex.
+- **Bug reports.** Review before sending. Automatic diagnostics contain no
+  conversations or code. Reports are kept for 30 days.
+
+**See network activity yourself:** open **Network activity…** from the tray menu.
+[How the viewer works](https://github.com/GG95-lab/FreshThread-bridge/blob/main/NETWORK.md).
 
 ---
 
