@@ -1,5 +1,7 @@
 ![FreshThread — Start Fresh Without Starting Over.](assets/freshthread-banner.gif)
 
+<h3 align="center">Your sessions, finally visible. See the data behind your Codex work.</h3>
+
 **Long Codex sessions can degrade after repeated compactions.**
 FreshThread helps you see when a session is getting overloaded and move the important context into a fresh task without starting over.
 
