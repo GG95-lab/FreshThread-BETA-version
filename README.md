@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white" alt="Windows 10 | 11">
   <img src="https://img.shields.io/badge/Free-Early%20Access-22d3ee" alt="Free Early Access">
-  <a href="https://github.com/GG95-lab/FreshThread-app/releases/latest"><img src="https://img.shields.io/github/v/release/GG95-lab/FreshThread-app?label=version&color=6366f1" alt="Latest version"></a>
+  <a href="https://github.com/GG95-lab/FreshThread-app/releases"><img src="https://img.shields.io/github/v/release/GG95-lab/FreshThread-app?include_prereleases&label=version&color=6366f1" alt="Latest version"></a>
   <a href="https://github.com/GG95-lab/FreshThread-bridge"><img src="https://img.shields.io/badge/Codex%20bridge-open%20source-2ea44f?logo=github" alt="Open-source Codex bridge"></a>
 </p>
 
