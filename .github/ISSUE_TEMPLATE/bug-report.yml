@@ -1,6 +1,6 @@
 name: Bug report
-description: Report a reproducible FreshThread beta problem.
-title: "[Beta] "
+description: Report a reproducible FreshThread Free Early Access problem.
+title: "[Bug] "
 body:
   - type: markdown
     attributes:
