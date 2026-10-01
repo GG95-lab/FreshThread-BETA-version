@@ -11,15 +11,15 @@ you continue in a fresh task with your working context.**
 
 **[Download for Windows — Free Early Access (x64)](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe)**
 
-**Verify your download:** The [0.2.7 release notes](https://github.com/GG95-lab/FreshThread-app/releases/tag/v0.2.7)
-show how to check the installer against GitHub's immutable release. The
-[bridge and network viewer each have build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
-
 > 💡 FreshThread doesn’t yet have a Windows publisher signature. For transparency, the
 > component that connects FreshThread to Codex and the network viewer are both
 > [open source](https://github.com/GG95-lab/FreshThread-bridge), with
 > [independently verifiable GitHub builds](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 > You can review their code and verify the components included in your installation.
+
+**Verify your download:** The [0.2.7 release notes](https://github.com/GG95-lab/FreshThread-app/releases/tag/v0.2.7)
+show how to check the installer against GitHub's immutable release. The
+[bridge and network viewer each have build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 
 Its panel shows available context usage, completed turns, compactions and handoff
 readiness. A handoff summarizes your goal, constraints, completed work and next
