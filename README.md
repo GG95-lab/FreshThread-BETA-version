@@ -89,12 +89,12 @@ It follows Codex's light or dark appearance, with the same layout in both modes.
 
 <table>
   <tr>
-    <td width="65%" valign="middle">
+    <td valign="middle">
       <h3>Make it yours</h3>
-      <p>Choose a color to match your taste or mood. The panel and symbol keep their soft glow, in your color.</p>
+      <p>Match your panel and symbol to your taste or mood.</p>
       <p><sub>Tray menu → Panel &amp; symbol color…</sub></p>
     </td>
-    <td width="35%" valign="middle">
+    <td width="264" valign="middle">
       <img src="assets/freshthread-color-settings.png" width="240" alt="FreshThread color settings — a continuous hue slider and an optional always-visible capsule background.">
     </td>
   </tr>
