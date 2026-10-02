@@ -91,7 +91,7 @@ It follows Codex's light or dark appearance, with the same layout in both modes.
   <tr>
     <td width="50%" valign="middle">
       <h3>Make it yours</h3>
-      <p>Match your panel and symbol to your taste or mood.</p>
+      <p>Customize your panel and symbol with a color that matches your taste or mood.</p>
       <p><sub>Tray menu → Panel &amp; symbol color…</sub></p>
     </td>
     <td width="50%" valign="middle" align="right">
