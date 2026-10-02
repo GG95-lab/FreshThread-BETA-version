@@ -27,7 +27,7 @@ FreshThread helps you see when a session is getting overloaded and move the impo
 </details>
 </blockquote>
 
-**[Download for Windows — Free Early Access (x64)](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe)**
+**[Download for Windows — Free Early Access (x64)](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.8/FreshThread_0.2.8_x64-setup.exe)**
 
 > [!IMPORTANT]
 > FreshThread doesn’t yet have a Windows publisher signature. For transparency, the
@@ -36,7 +36,7 @@ FreshThread helps you see when a session is getting overloaded and move the impo
 > [independently verifiable GitHub builds](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 > You can review their code and verify the components included in your installation.
 
-**Verify your download:** The [0.2.7 release notes](https://github.com/GG95-lab/FreshThread-app/releases/tag/v0.2.7)
+**Verify your download:** The [0.2.8 release notes](https://github.com/GG95-lab/FreshThread-app/releases/tag/v0.2.8)
 show how to check the installer against GitHub's immutable release. The
 [bridge and network viewer each have build verification](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 
@@ -127,7 +127,7 @@ have its own terms. The old beta's fixed deadline does not apply to this version
 <details name="freshthread-info">
 <summary><strong>Getting started</strong></summary>
 
-1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe).
+1. [Download the Windows x64 installer](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.8/FreshThread_0.2.8_x64-setup.exe).
 2. Install it in the Windows account where you use Codex.
 3. Review and enable the FreshThread hooks in **Codex Settings → Hooks**.
 4. Open the FreshThread panel to view task activity or start a handoff.
@@ -141,9 +141,9 @@ Beta 17 changes the hook definition, so Codex may ask you to review it again.
 Automatic updates require separate signature verification; a download hash
 alone does not prove who published a file.
 
-The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/SHA256SUMS.txt)
+The release includes [SHA256SUMS.txt](https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.8/SHA256SUMS.txt)
 for checking the installer's hash and an updater signature. You can also
-[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-app/releases/tag/v0.2.7).
+[verify the installer against GitHub's immutable release](https://github.com/GG95-lab/FreshThread-app/releases/tag/v0.2.8).
 The separate public bridge and network viewer each have a
 [build attestation and verification instructions](https://github.com/GG95-lab/FreshThread-bridge/blob/main/VERIFY.md).
 On a successful uninstall, FreshThread removes its Codex integration and restores
