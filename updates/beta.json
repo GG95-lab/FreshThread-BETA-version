@@ -1,11 +1,11 @@
 {
-  "version": "0.2.7",
-  "notes": "Free Early Access with no fixed expiry date and signed minimum-version policy. Clearer network activity with a separately attested viewer. Report types, optional screenshots and work-blocking feedback, with reviewed diagnostics and preserved drafts.",
-  "pub_date": "2026-10-01T07:08:07.4677333Z",
+  "version": "0.2.8",
+  "notes": "Optional panel and symbol colors, hover-only capsule background by default, clearer handoff progress and retry guidance, and updater startup recovery.",
+  "pub_date": "2026-10-02T08:53:24.902162Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZmRHU1pobDkwa0QrZ0taU2FvZXdvNStzLzZ0Tm43MlQwVCtKemo3c1J2SnBBOVRjY0duZ3pPWUxudEhVUGE3U1l6MUQxaVVPb3N2Wjg4LzBxd3F6d3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODM4NDY5CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjdfeDY0LXNldHVwLmV4ZQphQzFFQUtNRFYrOE42YmlheXEvNW16Z2JCejgzNmp3MVFVOXdzdWlVSFBUWU91N3J0WFlHZ1N5OUMydG50R2MwTVZpbDNkWlV2S05FMGMyUFRyeWpBdz09Cg==",
-      "url": "https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.7/FreshThread_0.2.7_x64-setup.exe"
+      "url": "https://github.com/GG95-lab/FreshThread-app/releases/download/v0.2.8/FreshThread_0.2.8_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdHRBSVE4UWN5ZlU5eWN5azd6SFBSUURndTVMY2ZlY0JBc0hQWitVSjU1L2xoWWNWN3RKTzlvc0x0M0YzdVNPcnJDUXBrakc2TTZ0b09MaXVSWEprU3NOMFNYUjFOTVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTMxMTg5CWZpbGU6RnJlc2hUaHJlYWRfMC4yLjhfeDY0LXNldHVwLmV4ZQpGTkdPT1J5RHl3ZHZyQzZlcXYwbXV1NWJhNmQ3OUwyWG4vTEdmWHk2bnpmV0plUGVGUEdhVG1FUDdXRjc5ci8ySXBGZHlVUmQrdnU5NnVQMld5YjNCZz09Cg=="
     }
   }
 }
