@@ -87,6 +87,19 @@ It follows Codex's light or dark appearance, with the same layout in both modes.
 </p>
 <p align="center"><sub>The panel follows your Codex appearance setting: light, dark, or your system theme.</sub></p>
 
+<table>
+  <tr>
+    <td width="50%" valign="middle">
+      <h3>Make it yours</h3>
+      <p>Customize your panel and symbol with a color that matches your taste or mood.</p>
+      <p><sub>Tray menu → Panel &amp; symbol color…</sub></p>
+    </td>
+    <td width="50%" valign="middle" align="right">
+      <img src="assets/freshthread-color-settings.png" width="240" alt="FreshThread color settings — a continuous hue slider and an optional always-visible capsule background.">
+    </td>
+  </tr>
+</table>
+
 ## Privacy in short
 
 - **Local data.** FreshThread reads Codex session files on your PC and stores
